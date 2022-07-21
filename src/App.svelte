@@ -1,11 +1,13 @@
 <script lang="ts">
 import Button from "./components/Button.svelte";
 import Plan from "./components/Plan.svelte";
+import image from "./static/images/illustration-hero.svg"
+
 const value: number = 59.99
 </script>
 <main>
   <div class="card">
-    <img src="/src/static/images/illustration-hero.svg" alt="Illustration">
+    <img src={image} alt="Illustration">
     <div class="text">
       <h1>Order Summary</h1>
       <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>

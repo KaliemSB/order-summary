@@ -1,10 +1,12 @@
 <script lang="ts">
+import image from "../static/images/icon-music.svg"
+
 export let price: number;
 </script>
 
 <div class="button">
   <div class="plan">
-    <img src="/src/static/images/icon-music.svg" alt="Music">
+    <img src={image} alt="Music">
     <div>
       <p>Annual Plan</p>
       <span>${price}/year</span>
